@@ -1,0 +1,247 @@
+/**
+ * Tableless Layout based on the default template
+ *
+ * @author damien@taadeem.net
+ */
+
+/* -------------- top row --------------- */
+div.dokuwiki .header {
+  padding: 3px 0 0 2px;
+}
+
+div.dokuwiki .pagename {
+  float: left;
+  font-size: 200%;
+  font-weight: bolder;
+/*  color: __background_alt__;*/
+  text-align: left;
+  vertical-align: middle;
+}
+
+div.dokuwiki .pagename a {
+/*  color: __extern__ !important;
+  text-decoration: none !important;
+*/
+}
+
+div.dokuwiki .logo {
+  float: right;
+  font-size: 220%;
+  font-weight: bolder;
+  text-align: right;
+  vertical-align: middle;
+}
+
+div.dokuwiki .logo a {
+  color: __background_alt__ !important;
+  text-decoration: none !important;
+  font-variant: small-caps;
+  letter-spacing: 2pt;
+}
+
+/* ---------------  top and bottom bar ---------------- */
+div.dokuwiki .bar {
+/*
+  border-top: 1px solid __border__;
+  border-bottom: 1px solid __border__;
+  background: __background_alt__;
+  padding: 0.1em 0.15em;
+  clear: both;
+*/
+}
+
+div.dokuwiki .bar-left {
+  float: left;
+}
+
+div.dokuwiki .bar-right {
+  float: right;
+  text-align: right;
+}
+
+div.dokuwiki #bar__bottom {
+  margin-bottom:3px;
+}
+
+/* ------------- File Metadata ----------------------- */
+
+div.dokuwiki div.meta {
+  clear: both;
+  margin-top: 1em;
+  color: __text_alt__;
+  font-size: 70%;
+}
+
+div.dokuwiki div.meta div.user {
+  float: left;
+}
+
+div.dokuwiki div.meta div.doc {
+  text-align: right;
+}
+
+
+/* Don't Panic */
+
+body {
+background-color: #F5F5F5;
+}
+
+
+.dokuwiki {
+background-color: #F5F5F5;
+}
+
+.header {
+  padding: 0 0 0 0;
+  background: url('images/bandeau_006699.png') no-repeat;
+  height: 47px;
+  background-color: #006699;
+  margin-bottom: 15px;
+
+}
+
+.pagename {
+  padding-left : 350px;
+  color: #FFFFFF;
+}
+
+.pagename a {
+  color: #FFFFFF;
+}
+
+.logo { 
+  display : none;
+  visibility : none;
+}
+
+#search_form {
+  float : right;
+  text-align: left;
+  vertical-align: middle;  
+}
+
+
+.page {
+  background-color: #FFFFFF; 
+  padding: 10px 25px; 
+  border: 1px inset; 
+  font-size: 1em; 
+}
+
+.breadcrumbs {
+  display : none;
+  visibility : none;
+}
+
+.footerinc {
+  display : none;
+  visibility : none;
+}
+
+.bar {
+  border-top: 0px;
+  border-bottom: 0px;
+  background: transparent;
+  padding-left: 3em 
+  padding-right : 3em;
+  border-left : 30px;
+  left : 30px;
+  clear: both;
+  margin-top: 0;
+  margin-bottom:5px;
+  margin-right: 25px;
+  margin-left: 15px;
+}
+
+.meta {
+  color : #000000;
+  border-top: 1px solid __border__;
+  border-bottom: 1px solid __border__;
+  background: __background_alt__;
+  padding: 0.1em 0.15em;
+  clear: both;
+
+}
+
+.toc {
+  display : none;
+  visibility : none;
+}
+
+
+/* ---------- Actionlinks ---------- */
+
+div.dokuwiki a.home {
+  background: transparent url(images/tool-home.png) 0px 1px no-repeat;
+  padding: 1px 0px 1px 18px;
+}
+
+div.dokuwiki a.login {
+  background: transparent url(images/tool-login.png) 0px 1px no-repeat;
+  padding: 1px 0px 1px 18px;
+}
+
+div.dokuwiki a.logout {
+  background: transparent url(images/tool-logout.png) 0px 1px no-repeat;
+  padding: 1px 0px 1px 18px;
+}
+
+div.dokuwiki a.index {
+  background: transparent url(images/tool-index.png) 1px 1px no-repeat;
+  padding: 1px 0px 1px 18px;
+}
+
+div.dokuwiki a.recent {
+  background: transparent url(images/tool-recent.png) 0px 1px no-repeat;
+  padding: 1px 0px 1px 18px;
+}
+
+div.dokuwiki a.create,
+div.dokuwiki a.edit {
+  background: transparent url(images/tool-edit.png) 0px 1px no-repeat;
+  padding: 1px 0px 1px 18px;
+}
+
+div.dokuwiki a.source,
+div.dokuwiki a.show {
+  background: transparent url(images/tool-source.png) 0px 1px no-repeat;
+  padding: 1px 0px 1px 18px;
+}
+
+div.dokuwiki a.admin {
+  background: transparent url(images/tool-admin.png) 0px 1px no-repeat;
+  padding: 1px 0px 1px 18px;
+}
+
+div.dokuwiki a.revisions {
+  background: transparent url(images/tool-revisions.png) 0px 1px no-repeat;
+  padding: 1px 0px 1px 18px;
+}
+
+div.dokuwiki a.subscribe,
+div.dokuwiki a.unsubscribe {
+  background: transparent url(images/tool-subscribe.png) 0px 1px no-repeat;
+  padding: 1px 0px 1px 18px;
+}
+
+div.dokuwiki a.backlink {
+  background: transparent url(images/tool-backlink.png) 0px 1px no-repeat;
+  padding: 1px 0px 1px 18px;
+}
+
+div.dokuwiki a.profile {
+  background: transparent url(images/tool-profile.png) 0px 1px no-repeat;
+  padding: 1px 0px 1px 18px;
+}
+
+div.dokuwiki a.top {
+  background: transparent url(images/tool-top.png) 0px 1px no-repeat;
+  padding: 1px 0px 1px 20px;
+/* 
+  float: right;
+  margin-top: 1em;
+  margin-bottom: 1em;
+*/
+}
+ 

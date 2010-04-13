@@ -1,0 +1,17 @@
+
+
+===== don't panic  ( pour l'APINC ) =====
+
+Ce template dokuwiki est un copycat du [[http://aide.apinc.org/Accueil|template wikini]] actuel.
+
+Le template est basé sur le template defaut de dokuwiki, rien de compliqué mise à part pour la 1ère page qui nécessite une réécriture du code et l'installation de 2 plug-ins.
+
+
+==== Installation ====
+
+  - Installer le plug-in [[http://www.dokuwiki.org/plugin:columns|columns]]
+  - Installer le plug-in {{:note4apinc.tgz|note4apinc}} qui est une adaptation du plug-in [[http://www.dokuwiki.org/plugin:note|note]]
+  - Installer le template  {{:dont_panic.tgz|}} dans le répertoire lib/tpl
+  - Modifier le code de la page d'accueil en remplaçant le code actuel par la  [[http://www.taadeem.net/apinc_test_template/doku.php?id=start&do=edit&rev=|nouvelle syntaxe]]
+  - Dans Admin > Paramètres de configuration > Template , choisir "dont panic"
+  - Enjoy !
